@@ -16,7 +16,6 @@ class Brand extends Model
         'point',
         'company_name',
         'status',
-        'expired_date',
     ];
 
     public function stores()

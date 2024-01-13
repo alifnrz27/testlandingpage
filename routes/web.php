@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\Admin\Bussiness;
-use App\Http\Controllers\Admin\PortofolioController;
-use App\Http\Controllers\Admin\PartnerController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\Auth\EmailVerificationController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Livewire\Auth\Login;
@@ -25,17 +24,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function(){
-    return redirect(route('bussiness'));
-});
+Route::get('/', [LandingPageController::class, 'index'])->name('home');
 
 Route::middleware('guest')->group(function () {
     Route::get('login', Login::class)
         ->name('login');
 
-    Route::get('register', function(){
-        return redirect(route('login'));
-    })->name('register');
+        Route::get('register', Register::class)
+        ->name('register');
+
+    Route::post('register', [RegisterController::class, 'submit'])->name('post.register');
 });
 
 Route::get('password/reset', Email::class)
@@ -57,14 +55,6 @@ Route::middleware('auth')->group(function () {
     Route::get('email/verify/{id}/{hash}', EmailVerificationController::class)
         ->middleware('signed')
         ->name('verification.verify');
-
-    Route::group([
-        'middleware' => 'admin',
-    ], function(){
-        Route::get('/bussiness', [Bussiness::class, 'index'])->name('bussiness');
-        Route::get('/portofolio', [PortofolioController::class, 'index'])->name('portofolio');
-        Route::get('/partners', [PartnerController::class, 'index'])->name('partner');
-    });
 
     Route::post('logout', LogoutController::class)
         ->name('logout');

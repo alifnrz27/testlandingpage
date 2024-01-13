@@ -7,27 +7,22 @@
         </a>
 
         <h2 class="mt-6 text-3xl font-extrabold text-center text-gray-900 leading-9">
-            Create a new account
+            Daftarkan Diri Anda
         </h2>
 
-        <p class="mt-2 text-sm text-center text-gray-600 leading-5 max-w">
-            Or
-            <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">
-                sign in to your account
-            </a>
-        </p>
     </div>
 
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="px-4 py-8 bg-white shadow sm:rounded-lg sm:px-10">
-            <form wire:submit.prevent="register">
+            <form method="POST" action="{{ route('post.register') }}">
+                @csrf
                 <div>
                     <label for="name" class="block text-sm font-medium text-gray-700 leading-5">
-                        Name
+                        Nama
                     </label>
 
                     <div class="mt-1 rounded-md shadow-sm">
-                        <input wire:model.lazy="name" id="name" type="text" required autofocus class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('name') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
+                        <input name="name" id="name" type="text" required autofocus class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('name') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
                     </div>
 
                     @error('name')
@@ -37,11 +32,11 @@
 
                 <div class="mt-6">
                     <label for="email" class="block text-sm font-medium text-gray-700 leading-5">
-                        Email address
+                        Alamat Email
                     </label>
 
                     <div class="mt-1 rounded-md shadow-sm">
-                        <input wire:model.lazy="email" id="email" type="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('email') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
+                        <input name="email" id="email" type="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('email') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
                     </div>
 
                     @error('email')
@@ -50,27 +45,17 @@
                 </div>
 
                 <div class="mt-6">
-                    <label for="password" class="block text-sm font-medium text-gray-700 leading-5">
-                        Password
+                    <label for="phone_number" class="block text-sm font-medium text-gray-700 leading-5">
+                        Nomor Telepon
                     </label>
 
                     <div class="mt-1 rounded-md shadow-sm">
-                        <input wire:model.lazy="password" id="password" type="password" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('password') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
+                        <input name="phone_number" id="phone_number" type="tel" pattern="[0-9()+-]*" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5 @error('phone_number') border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red @enderror" />
                     </div>
 
-                    @error('password')
+                    @error('phone_number')
                         <p class="mt-2 text-sm text-red-600">{{ $message }}</p>
                     @enderror
-                </div>
-
-                <div class="mt-6">
-                    <label for="password_confirmation" class="block text-sm font-medium text-gray-700 leading-5">
-                        Confirm Password
-                    </label>
-
-                    <div class="mt-1 rounded-md shadow-sm">
-                        <input wire:model.lazy="passwordConfirmation" id="password_confirmation" type="password" required class="block w-full px-3 py-2 placeholder-gray-400 border border-gray-300 appearance-none rounded-md focus:outline-none focus:ring-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
-                    </div>
                 </div>
 
                 <div class="mt-6">
@@ -83,4 +68,39 @@
             </form>
         </div>
     </div>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        window.addEventListener('modal', event => {
+            Swal.fire({
+                position: 'center',
+                icon: event.detail.type,
+                title: event.detail.title,
+                showConfirmButton: true,
+            });
+        });
+
+        window.addEventListener('confirm', event => {
+            Swal.fire({
+                title: event.detail.title,
+                text: event.detail.text,
+                icon: event.detail.icon,
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: event.detail.confirmButtonText,
+                cancelButtonText: 'Batal'
+            })
+            .then((result) => {
+                if (result.isConfirmed) {
+                    window.livewire.emit(event.detail.useMethod, event.detail.key);
+                    console.log(event.detail.key);
+                }
+            });
+        });
+    </script>
+
 </div>

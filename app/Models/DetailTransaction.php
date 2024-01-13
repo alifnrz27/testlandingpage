@@ -13,7 +13,6 @@ class DetailTransaction extends Model
         'transaction_id',
         'product_id',
         'amount',
-        'qty',
     ];
 
     public function product()

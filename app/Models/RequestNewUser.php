@@ -16,9 +16,4 @@ class RequestNewUser extends Model
         'status',
         'referal_domain_id'
     ];
-
-    public function referal()
-    {
-        return $this->belongsTo(subdomain::class, 'referal_domain_id');
-    }
 }
