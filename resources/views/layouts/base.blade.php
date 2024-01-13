@@ -32,22 +32,22 @@
             {{-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> --}}
             {{-- <script src="{{ asset('src/template/twk-main.js.download') }}" charset="UTF-8" crossorigin="*"></script>
             <script src="{{ asset('src/template/twk-vendor.js.download') }}" charset="UTF-8" crossorigin="*"></script>
-            <script src="{{ asset('src/template/twk-chunk-vendors.js.download') }}" charset="UTF-8" crossorigin="*"></script> --}}
-            {{-- <script src="{{ asset('src/template/twk-chunk-common.js.download') }}" charset="UTF-8" crossorigin="*"></script> --}}
-            {{-- <script src="{{ asset('src/template/twk-runtime.js.download') }}" charset="UTF-8" crossorigin="*"></script> --}}
-            {{-- <script src="{{ asset('src/template/twk-app.js.download') }}" charset="UTF-8" crossorigin="*"></script>
+            <script src="{{ asset('src/template/twk-chunk-vendors.js.download') }}" charset="UTF-8" crossorigin="*"></script>
+            <script src="{{ asset('src/template/twk-chunk-common.js.download') }}" charset="UTF-8" crossorigin="*"></script>
+            <script src="{{ asset('src/template/twk-runtime.js.download') }}" charset="UTF-8" crossorigin="*"></script>
+            <script src="{{ asset('src/template/twk-app.js.download') }}" charset="UTF-8" crossorigin="*"></script>
             <script type="text/javascript" async="" src="{{ asset('src/template/analytics.js.download') }}"></script>
             <script type="text/javascript" async="" src="{{ asset('src/template/js') }}"></script>
             <script async="" src="{{ asset('src/template/1fhcv01e1') }}" charset="UTF-8" crossorigin="*"></script>
-            <script src="{{ asset('src/template/149374275497861') }}" async=""></script> --}}
-            {{-- <script src="{{ asset('src/template/openbridge3.js.download') }}" async=""></script> --}}
-            {{-- <script async="" src="{{ asset('src/template/fbevents.js.download') }}"></script> --}}
-            {{-- <script type="text/javascript" async="" src="{{ asset('src/template/js(1)') }}"></script>
+            <script src="{{ asset('src/template/149374275497861') }}" async=""></script>
+             <script src="{{ asset('src/template/openbridge3.js.download') }}" async=""></script>
+            <script async="" src="{{ asset('src/template/fbevents.js.download') }}"></script>
+            <script type="text/javascript" async="" src="{{ asset('src/template/js(1)') }}"></script>
             <script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script>
-            <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
-            {{-- <link rel="prefetch" href="https://dewabiz.com/pwa-manifest.json">
-            <link rel="manifest" href="https://dewabiz.com/pwa-manifest.json"> --}}
-            {{-- <link rel="apple-touch-icon" sizes="512x512" href="https://dewabiz.com/wp-content/uploads/2021/02/icon-512x512-1.png">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="prefetch" href="https://dewabiz.com/pwa-manifest.json">
+            <link rel="manifest" href="https://dewabiz.com/pwa-manifest.json">
+            <link rel="apple-touch-icon" sizes="512x512" href="https://dewabiz.com/wp-content/uploads/2021/02/icon-512x512-1.png">
             <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://dewabiz.com/wp-content/uploads/2021/02/icon-192x192-1.png">
             <title>DewaBiz.com: Web Hosting, Server &amp; Domain Murah</title>
             <meta name="description" content="Web Hosting Murah, VPS dan Domain Murah Terbaik di Indonesia Fitur Lengkap, Uptime 99%, Garansi Uang Kembali, Performa dan Aktivasi Cepat!">
@@ -357,8 +357,8 @@
             {{-- <script type="text/javascript" src="data:text/javascript;base64,IWZ1bmN0aW9uKGYsYixlLHYsbix0LHMpe2lmKGYuZmJxKXJldHVybjtuPWYuZmJxPWZ1bmN0aW9uKCl7bi5jYWxsTWV0aG9kP24uY2FsbE1ldGhvZC5hcHBseShuLGFyZ3VtZW50cyk6bi5xdWV1ZS5wdXNoKGFyZ3VtZW50cyl9O2lmKCFmLl9mYnEpZi5fZmJxPW47bi5wdXNoPW47bi5sb2FkZWQ9ITA7bi52ZXJzaW9uPScyLjAnO24ucXVldWU9W107dD1iLmNyZWF0ZUVsZW1lbnQoZSk7dC5hc3luYz0hMDt0LnNyYz12O3M9Yi5nZXRFbGVtZW50c0J5VGFnTmFtZShlKVswXTtzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHQscyl9KHdpbmRvdyxkb2N1bWVudCwnc2NyaXB0JywnaHR0cHM6Ly9jb25uZWN0LmZhY2Vib29rLm5ldC9lbl9VUy9mYmV2ZW50cy5qcz92PW5leHQnKQ==" defer=""></script>
             <script type="text/javascript" src="data:text/javascript;base64,dmFyIHVybD13aW5kb3cubG9jYXRpb24ub3JpZ2luKyc/b2I9b3Blbi1icmlkZ2UnO2ZicSgnc2V0Jywnb3BlbmJyaWRnZScsJzE0OTM3NDI3NTQ5Nzg2MScsdXJsKQ==" defer=""></script>
             <script type="text/javascript" src="data:text/javascript;base64,ZmJxKCdpbml0JywnMTQ5Mzc0Mjc1NDk3ODYxJyx7fSx7ImFnZW50Ijoid29yZHByZXNzLTYuNC4yLTMuMC4xNCJ9KQ==" defer=""></script>
-            <script type="text/javascript" src="data:text/javascript;base64,ZmJxKCd0cmFjaycsJ1BhZ2VWaWV3JyxbXSk=" defer=""></script> --}}
-            {{-- <noscript>
+            <script type="text/javascript" src="data:text/javascript;base64,ZmJxKCd0cmFjaycsJ1BhZ2VWaWV3JyxbXSk=" defer=""></script>
+            <noscript>
             <img height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id=149374275497861&ev=PageView&noscript=1"/>
             </noscript> --}}
             <link rel="icon" href="https://dewabiz.com/wp-content/uploads/2021/02/favicon.ico" sizes="32x32">
@@ -478,8 +478,8 @@
                 }
             }
             </style>
-            {{-- <script src="{{ asset('src/template/core.KJQApO2n.js.download') }}" type="module"></script> --}}
-            {{-- <script charset="utf-8" src="{{ asset('src/template/twk-chunk-2c776523.js.download') }}"></script>
+            {{-- <script src="{{ asset('src/template/core.KJQApO2n.js.download') }}" type="module"></script>
+            <script charset="utf-8" src="{{ asset('src/template/twk-chunk-2c776523.js.download') }}"></script>
             <script charset="utf-8" src="{{ asset('src/template/twk-chunk-9294da6c.js.download') }}"></script>
             <script charset="utf-8" src="{{ asset('src/template/twk-chunk-f1565420.js.download') }}"></script>
             <script charset="utf-8" src="{{ asset('src/template/twk-chunk-2d0b383d.js.download') }}"></script>
@@ -548,8 +548,8 @@
         @yield('body')
 
         {{-- template dari dewabiz --}}
-            {{-- <script src="{{ asset('src/template/js(2))') }}" defer="" data-deferred="1"></script> --}}
-            {{-- <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctQkhCUkpZUEhSOCcp" defer=""></script>
+            {{-- <script src="{{ asset('src/template/js(2))') }}" defer="" data-deferred="1"></script>
+            <script src="data:text/javascript;base64,d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXTtmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX0KZ3RhZygnanMnLG5ldyBEYXRlKCkpO2d0YWcoJ2NvbmZpZycsJ0ctQkhCUkpZUEhSOCcp" defer=""></script>
             <script id="tawk-script" type="text/javascript" src="data:text/javascript;base64,dmFyIFRhd2tfQVBJPVRhd2tfQVBJfHx7fTt2YXIgVGF3a19Mb2FkU3RhcnQ9bmV3IERhdGUoKTsoZnVuY3Rpb24oKXt2YXIgczE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0JyksczA9ZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdO3MxLmFzeW5jPSEwO3MxLnNyYz0naHR0cHM6Ly9lbWJlZC50YXdrLnRvLzVkNDJhNTc4ZTVhZTk2N2VmODBkZGQ2ZC8xZmhjdjAxZTEnO3MxLmNoYXJzZXQ9J1VURi04JztzMS5zZXRBdHRyaWJ1dGUoJ2Nyb3Nzb3JpZ2luJywnKicpO3MwLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHMxLHMwKX0pKCk=" defer=""></script>
             <script id="generate-a11y" src="data:text/javascript;base64,IWZ1bmN0aW9uKCl7InVzZSBzdHJpY3QiO2lmKCJxdWVyeVNlbGVjdG9yImluIGRvY3VtZW50JiYiYWRkRXZlbnRMaXN0ZW5lciJpbiB3aW5kb3cpe3ZhciBlPWRvY3VtZW50LmJvZHk7ZS5hZGRFdmVudExpc3RlbmVyKCJtb3VzZWRvd24iLGZ1bmN0aW9uKCl7ZS5jbGFzc0xpc3QuYWRkKCJ1c2luZy1tb3VzZSIpfSksZS5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIixmdW5jdGlvbigpe2UuY2xhc3NMaXN0LnJlbW92ZSgidXNpbmctbW91c2UiKX0pfX0oKQ==" defer=""></script>
             <script type="text/javascript" src="data:text/javascript;base64,ZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignd3BjZjdtYWlsc2VudCcsZnVuY3Rpb24oZXZlbnQpe2lmKCJmYl9weGxfY29kZSIgaW4gZXZlbnQuZGV0YWlsLmFwaVJlc3BvbnNlKXtldmFsKGV2ZW50LmRldGFpbC5hcGlSZXNwb25zZS5mYl9weGxfY29kZSl9fSwhMSk=" defer=""></script> --}}
@@ -580,10 +580,10 @@
             <style id="core-block-supports-inline-css">
             .wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-container-core-navigation-layout-1.wp-container-core-navigation-layout-1{flex-direction:column;align-items:flex-start;}.wp-container-core-navigation-layout-2.wp-container-core-navigation-layout-2{flex-direction:column;align-items:flex-start;}
             </style>
-            {{-- <script id="generate-offside-js-extra" src="data:text/javascript;base64,dmFyIG9mZlNpZGU9eyJzaWRlIjoicmlnaHQifQ==" defer=""></script>
+            <script id="generate-offside-js-extra" src="data:text/javascript;base64,dmFyIG9mZlNpZGU9eyJzaWRlIjoicmlnaHQifQ==" defer=""></script>
             <script data-optimized="1" src="{{ asset('src/template/6640c5bd2337fc3f59d7cc5dfc552abe.js.download') }}" id="generate-offside-js" defer="" data-deferred="1"></script>
             <script id="generate-smooth-scroll-js-extra" src="data:text/javascript;base64,dmFyIHNtb290aD17ImVsZW1lbnRzIjpbIi5zbW9vdGgtc2Nyb2xsIiwibGkuc21vb3RoLXNjcm9sbCBhIl0sImR1cmF0aW9uIjoiODAwIn0=" defer=""></script>
-            <script data-optimized="1" src="{{ asset('src/template/14e0ed2e9ed106eb26e43487e5e92078.js.download') }}" id="generate-smooth-scroll-js" defer="" data-deferred="1"></script> --}}
+            <script data-optimized="1" src="{{ asset('src/template/14e0ed2e9ed106eb26e43487e5e92078.js.download') }}" id="generate-smooth-scroll-js" defer="" data-deferred="1"></script>
             <!--[if lte IE 11]> <script src="https://dewabiz.com/wp-content/themes/generatepress/assets/js/classList.min.js" id="generate-classlist-js"></script> <![endif]-->
             {{-- <script id="generate-menu-js-extra" src="data:text/javascript;base64,dmFyIGdlbmVyYXRlcHJlc3NNZW51PXsidG9nZ2xlT3BlbmVkU3ViTWVudXMiOiIxIiwib3BlblN1Yk1lbnVMYWJlbCI6Ik9wZW4gU3ViLU1lbnUiLCJjbG9zZVN1Yk1lbnVMYWJlbCI6IkNsb3NlIFN1Yi1NZW51In0=" defer=""></script>
             <script data-optimized="1" src="{{ asset('src/template/e52418b4c4f61f503504b07127ad7f23.js.download') }}" id="generate-menu-js" defer="" data-deferred="1"></script>

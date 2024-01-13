@@ -1618,7 +1618,7 @@ function formatRupiah($angka) {
                             </div>
                         </div>
                     </div>
-                    <div class="gb-container gb-container-fa578462">
+                    {{-- <div class="gb-container gb-container-fa578462">
                         <h2 class="gb-headline gb-headline-3b436733 gb-headline-text">Layanan</h2>
                         <div class="gb-container gb-container-c12410c4">
                             <nav class=" is-vertical wp-block-navigation is-layout-flex wp-container-core-navigation-layout-1 wp-block-navigation-is-layout-flex" aria-label="Footer 1">
@@ -1680,7 +1680,7 @@ function formatRupiah($angka) {
                             </ul>
                             </nav>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="gb-container gb-container-724f70ef grid-container">
                     <div class="gb-container gb-container-a3f5a4b4">
@@ -1700,50 +1700,16 @@ function formatRupiah($angka) {
             </span><span class="screen-reader-text">Close</span></button>
             <div class="main-nav">
                 <ul id="menu-mobile-off-canvas" class=" slideout-menu">
-                    <li id="menu-item-48780" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-48780">
-                        <a href="https://dewabiz.com/" aria-current="page" class="menu-image-title-after menu-image-not-hovered"><img width="21" height="21" src="./DewaBiz.com_ Web Hosting, Server &amp; Domain Murah_files/server.svg" class="menu-image menu-image-title-after" alt="" decoding="async" loading="lazy"><span class="menu-image-title-after menu-image-title">HOSTING</span><span role="button" class="dropdown-menu-toggle" tabindex="0" aria-expanded="true"><span class="gp-icon icon-arrow"><svg viewbox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span><span class="description"></span></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-48783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48783">
-                                <a href="https://dewabiz.com/hosting-super/">Hosting Super<span class="description">Harga Mulai Rp 50K/Bulan</span></a>
-                            </li>
-                            <li id="menu-item-48784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48784">
-                                <a href="https://dewabiz.com/wordpress-hosting/">WordPress Hosting<span class="description">Hosting Wordpress Rp 42,970/bln</span></a>
-                            </li>
-                            <li id="menu-item-48785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48785">
-                                <a href="https://dewabiz.com/hosting-murah/">Unlimited Hosting<span class="description">Pilihan hosting termurah &amp; terbaik</span></a>
-                            </li>
-                            <li id="menu-item-48786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48786">
-                                <a href="https://dewabiz.com/mail-hosting/">Mail Hosting<span class="description">Gunakan email proffesional untuk bisnismu!</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-48787" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-48787">
-                        <a href="https://dewabiz.com/" aria-current="page" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="./DewaBiz.com_ Web Hosting, Server &amp; Domain Murah_files/domain-white.svg" class="menu-image menu-image-title-after" alt="" decoding="async" loading="lazy"><span class="menu-image-title-after menu-image-title">DOMAIN</span><span role="button" class="dropdown-menu-toggle" tabindex="0" aria-expanded="true"><span class="gp-icon icon-arrow"><svg viewbox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span><span class="description"></span></a>
-                        <ul class="sub-menu">
-                            <li id="menu-item-48792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48792">
-                                <a href="https://dewabiz.com/domain/">Domain Murah<span class="description"></span></a>
-                            </li>
-                            <li id="menu-item-48796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48796">
-                                <a href="https://dewabiz.com/reseller-domain/">Reseller Domain<span class="description"></span></a>
-                            </li>
-                            <li id="menu-item-48793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48793">
-                                <a href="https://dewabiz.com/domain-backorder/">Domain Backorder<span class="description"></span></a>
-                            </li>
-                            <li id="menu-item-48795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48795">
-                                <a href="https://my.dewabiz.com/domainmarket.php">Lelang Domain<span class="description"></span></a>
-                            </li>
-                            <li id="menu-item-48797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48797">
-                                <a href="https://dewabiz.com/transfer-domain/">Transfer Domain<span class="description"></span></a>
-                            </li>
-                            <li id="menu-item-48794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48794">
-                                <a href="https://dewabiz.com/domain-id/">Domain ID<span class="description"></span></a>
-                            </li>
-                        </ul>
+                    <li id="menu-item-48799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48799">
+                        <a href="{{ route('register') }}" class="menu-image-title-after menu-image-not-hovered"><span class="menu-image-title-after menu-image-title">Register</span><span class="description"></span></a>
                     </li>
                     <li id="menu-item-48799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48799">
-                        <a href="https://dewabiz.com/ssl-certificate/" class="menu-image-title-after menu-image-not-hovered"><img width="36" height="36" src="./DewaBiz.com_ Web Hosting, Server &amp; Domain Murah_files/ssl-white.svg" class="menu-image menu-image-title-after" alt="" decoding="async" loading="lazy"><span class="menu-image-title-after menu-image-title">SSL Certificate</span><span class="description"></span></a>
+                        <a href="https://clpapp.biz.id/login" class="menu-image-title-after menu-image-not-hovered"><span class="menu-image-title-after menu-image-title">Login Customer</span><span class="description"></span></a>
                     </li>
-                    <li id="menu-item-48802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48802">
+                    <li id="menu-item-48799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48799">
+                        <a href="https://clpapp.biz.id/owner/login" class="menu-image-title-after menu-image-not-hovered"><span class="menu-image-title-after menu-image-title">Login Owner</span><span class="description"></span></a>
+                    </li>
+                    {{-- <li id="menu-item-48802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48802">
                         <a href="https://dewabiz.com/pricing/" class="menu-image-title-after menu-image-not-hovered"><img width="21" height="21" src="./DewaBiz.com_ Web Hosting, Server &amp; Domain Murah_files/server.svg" class="menu-image menu-image-title-after" alt="" decoding="async" loading="lazy"><span class="menu-image-title-after menu-image-title">Pricing</span><span class="description"></span></a>
                     </li>
                     <li id="menu-item-48803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48803">
@@ -1751,17 +1717,17 @@ function formatRupiah($angka) {
                     </li>
                     <li id="menu-item-49709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49709">
                         <a href="https://dewabiz.com/blog/" class="menu-image-title-after menu-image-not-hovered"><img width="31" height="36" src="./DewaBiz.com_ Web Hosting, Server &amp; Domain Murah_files/promo-white.svg" class="menu-image menu-image-title-after" alt="" decoding="async" loading="lazy"><span class="menu-image-title-after menu-image-title">Blog</span><span class="description"></span></a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
-            <div class="gb-container gb-container-7d4b5781">
+            {{-- <div class="gb-container gb-container-7d4b5781">
                 <div class="gb-container gb-container-01sdfeef" id="top-nav">
                     <a class="gb-button gb-button-3dsdc72d gb-button-3d1ac72d" href="https://my.dewabiz.com/supporttickets.php"><span class="gb-icon"><svg viewbox="0 0 16 16" class="bi bi-chat" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"></path></svg></span><span class="gb-button-text">Support</span></a><a class="gb-button gb-button-308sd6eb gb-button-3086e6eb" href="https://wa.me/6285215222259"><span class="gb-icon"><svg viewbox="0 0 16 16" class="bi bi-whatsapp" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path></svg></span><span class="gb-button-text">WhatsApp CS 24/7</span></a>
                 </div>
                 <div class="gb-container gb-container-a3c08ae6">
                     <a class="gb-button gb-button-e5900724 gb-button-text" href="https://my.dewabiz.com/login">Member Area</a>
                 </div>
-            </div>
+            </div> --}}
         </div>
         </nav>
         <div class="slideout-overlay"></div>
