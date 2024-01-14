@@ -180,7 +180,7 @@ function formatRupiah($angka) {
             <div>
                 <a class="gb-button gb-button-169c0c68" href="{{ route('register') }}"><span class="gb-button-text">Daftar</span><span class="gb-icon"><svg viewbox="0 0 16 16" class="bi bi-box-arrow-in-right" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" fill-rule="evenodd"></path><path d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" fill-rule="evenodd"></path></svg></span></a>
                 @auth
-                <a style="background-color: rgb(156 163 175 / var(--tw-bg-opacity));" class="gb-button gb-button-169c0c68 bg-gray-400" href="https://{{ $url }}/login"><span class="gb-button-text">Dashoard</span></a>
+                <a style="background-color: rgb(156 163 175 / var(--tw-bg-opacity));" class="gb-button gb-button-169c0c68 bg-gray-400" href="https://{{ $url }}/owner/login"><span class="gb-button-text">Dashoard</span></a>
                 @else
                 <a style="background-color: rgb(34 197 94 / var(--tw-bg-opacity));" class="gb-button gb-button-169c0c68 bg-green-500" href="{{ route('login') }}"><span class="gb-button-text">Login</span></a>
                 @endif
