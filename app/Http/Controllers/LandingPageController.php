@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Portofolio;
 use App\Models\Partner;
+use App\Models\subdomain;
 
 use Illuminate\Http\Request;
 
