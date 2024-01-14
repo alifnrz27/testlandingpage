@@ -13,6 +13,7 @@ class LandingPageController extends Controller
         $data['url'] = "";
         if (auth()->check()) {
             $data['url'] = getSubdomainOrDomainFromURL();
+            dd($data['url']);
         }
         $data['partners'] = Partner::get();
         $data['clp'] = Portofolio::where(['type' => 1])->with(['features'])->get();
