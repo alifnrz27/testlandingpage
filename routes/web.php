@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\BillingController;
 use App\Http\Controllers\Auth\EmailVerificationController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Livewire\Auth\Login;
@@ -55,7 +56,7 @@ Route::middleware('auth')->group(function () {
     Route::get('email/verify/{id}/{hash}', EmailVerificationController::class)
         ->middleware('signed')
         ->name('verification.verify');
-
+        Route::get('/billing', [BillingController::class, 'index'])->name('billing');
     Route::post('logout', LogoutController::class)
         ->name('logout');
 });

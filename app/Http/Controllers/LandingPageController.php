@@ -26,13 +26,4 @@ class LandingPageController extends Controller
         return view('welcome', $data)->extends('layouts.auth');
     }
 
-    public function getSubdomainOrDomainFromURL() {
-        $subdomain = subdomain::where([
-            'id' => auth()->user()->subdomain_id
-        ])->first();
-
-        $subdomainOrDomain = $subdomain->name;
-
-        return $subdomainOrDomain;
-    }
 }
