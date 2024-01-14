@@ -22,17 +22,11 @@ class LandingPageController extends Controller
     }
 
     public function getSubdomainOrDomainFromURL() {
-        $host = $_SERVER['HTTP_HOST'];
-        $domainParts = explode('.', $host);
+        $subdomain = subdomain::where([
+            'id' => auth()->user()->subdomain_id
+        ])->first();
 
-        // Menghilangkan "www" jika ada
-        if ($domainParts[0] === 'www') {
-            array_shift($domainParts);
-        }
-
-        // Mengambil subdomain pertama atau domain utama
-        // $subdomainOrDomain = $domainParts[0];
-        $subdomainOrDomain = implode(".", $domainParts);
+        $subdomainOrDomain = $subdomain->name;
 
         return $subdomainOrDomain;
     }
